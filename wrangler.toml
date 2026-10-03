@@ -1,0 +1,17 @@
+name = "optlyouts-under-construction"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+
+[assets]
+directory = "./"
+binding = "ASSETS"
+run_worker_first = true
+
+[[routes]]
+pattern = "optlyouts.com/*"
+zone_name = "optlyouts.com"
+
+[[routes]]
+pattern = "www.optlyouts.com/*"
+zone_name = "optlyouts.com"
